@@ -1,0 +1,16 @@
+Each financial advisor has a fixed industry (Financial Service Category)
+
+The filter function on the "Financial Advisor" page should only display advisors based on their specified industry.
+
+Current Status
+
+In the old FixFinanz (left in the screenshot), the assignment works correctly.
+→ Clicking on an industry (e.g., "Insurance") displays only advisors in that industry.
+
+In the new FixFinanz (right in the screenshot), all advisors are currently displayed, regardless of their actual industry.
+→ The filter query is not valid or returns incorrect data.
+
+Desired Status
+
+When a visitor selects an industry (checkbox or direct link), only advisors in that industry should appear.
+Each advisor is assigned to exactly one main industry (1:1 assignment).
